@@ -1,6 +1,16 @@
 {
+  "name": "vercel-serverless-functions",
+  "version": "1.0.0",
+  "main": "/api/index.js",
   "dependencies": {
     "chrome-aws-lambda": "^10.1.0",
     "puppeteer-core": "^10.1.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rayremnant",
+  "license": "ISC",
+  "description": ""
 }
