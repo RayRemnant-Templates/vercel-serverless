@@ -5,7 +5,7 @@ module.exports = async (req, res) => {
     const browser = await puppeteer.launch({
         args: chromium.args,
         executablePath:
-            process.env.CHROME_EXECUTABLE_PATH || (await chromium.executablePath),
+            process.env.CHROME_EXECUTABLE_PATH || (await chromium.executablePath()),
         headless: true,
         // ...more config options
     });
