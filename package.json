@@ -2,10 +2,6 @@
   "name": "vercel-serverless-functions",
   "version": "1.0.0",
   "main": "/api/index.js",
-  "dependencies": {
-    "@sparticuz/chromium": "^119.0.0",
-    "puppeteer-core": "^10.1.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
